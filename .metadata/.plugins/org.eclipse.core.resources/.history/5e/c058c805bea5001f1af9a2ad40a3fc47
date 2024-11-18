@@ -1,0 +1,12 @@
+package com.Problem_Set_I;
+
+public class Set_I_Main {
+
+	public static void main(String[] args) {
+		Set_I_Main obj =new Set_I_Main();
+		Postive_or_negaive obj1 = new Postive_or_negaive();
+		obj1.Pos_neg(5);
+
+	}
+
+}

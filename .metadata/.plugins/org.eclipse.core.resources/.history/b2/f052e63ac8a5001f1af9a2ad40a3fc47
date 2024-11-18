@@ -1,0 +1,22 @@
+package com.Problem_Set_I;
+
+public class Sum_of_prime_interval {
+	public Integer Sum(int a,int b) {
+	System.out.println("--------------------------------");
+	System.out.println("the sum of prime between the interval is :");
+	int sum=0;
+	int temp;
+	if(a>b) {
+		temp=a;
+		a=b;
+		b=temp;
+		
+		
+	}
+	
+	
+	return sum;
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.Problem_Set_I;
+
+public class Sum_of_prime_interval {
+	public Integer Sum(int a,int b) {
+	System.out.println("--------------------------------");
+	int sum=0;
+	
+	
+	return sum;
+
+	}
+
+}

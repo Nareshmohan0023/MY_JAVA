@@ -1,0 +1,13 @@
+package com.Problem_Set_I;
+
+public class Sum_of_givenInterval {
+	public Integer Sum(int a,int b) {
+		int temp;
+		if(a>b) {
+			temp=b;
+			b=a;
+			a=temp;
+		}
+	}
+
+}

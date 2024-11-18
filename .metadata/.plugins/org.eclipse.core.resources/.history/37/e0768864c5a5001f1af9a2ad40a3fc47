@@ -1,0 +1,15 @@
+package com.Problem_Set_I;
+
+public class Odd_even {
+	public String Oddoreven(int n) {
+		if (n%2==0) {
+			System.out.println("--------------------------------");
+			return "even";
+		}
+		else {
+			System.out.println("--------------------------------");
+			return "odd";
+		}
+	}
+
+}

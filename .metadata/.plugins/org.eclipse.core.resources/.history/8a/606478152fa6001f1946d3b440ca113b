@@ -1,0 +1,27 @@
+package com.Problem_Set_I;
+
+public class Strong_number {
+	  // Function to calculate factorial of a number
+    public int factorial(int n) {
+        int fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+
+    // Function to check if the number is a Strong number
+    public boolean isStrongNumber(int number) {
+        int originalNumber = number;
+        int sum = 0;
+
+        while (number > 0) {
+            int digit = number % 10;
+            sum += factorial(digit); // Add the factorial of the digit to sum
+            number /= 10; // Remove the last digit
+        }
+
+        return originalNumber == sum; // Check if the sum of factorials equals the original number
+    }
+
+}

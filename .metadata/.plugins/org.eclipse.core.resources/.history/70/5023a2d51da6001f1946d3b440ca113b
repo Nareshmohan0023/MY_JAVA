@@ -1,0 +1,12 @@
+package com.Problem_Set_I;
+
+public class Armstrong_number {
+	public Integer Find_Armstrong(int n) {
+		int sum=0;
+		int digits;
+		digits=String.valueOf(n).length();
+		
+		return sum;
+	}
+
+}

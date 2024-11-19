@@ -24,6 +24,26 @@ public class Set_I_Main {
 		System.out.println(obj9.Sum(2, 26));
 		Sum_of_digits obj10=new Sum_of_digits();
 		System.out.println(obj10.Sum(222));
+		Reverse_of_number obj11=new Reverse_of_number();
+		obj11.Reverse(256);
+		Palindrome_of_num obj12=new Palindrome_of_num();
+		System.out.println(obj12.Is_palindrome(262));
+		Armstrong_number obj13=new Armstrong_number();
+		System.out.println(obj13.Find_Armstrong(153));
+		Find_All_Armstrong obj14=new Find_All_Armstrong();
+		obj14.Find_Armstrongs(2, 200);
+		Fibonacci_Series obj15=new Fibonacci_Series();
+		obj15.printFibonacci(10);
+		Nth_term_Fibonacci obj16=new Nth_term_Fibonacci();
+		obj16.Nth_term(10);
+		Factorial obj17=new Factorial();
+		System.out.println(obj17.Factorial_N(6));
+		Power_of_num obj18=new Power_of_num();
+		System.out.println(obj18.power(2, 3));
+		Factor_of_n obj19=new Factor_of_n() ;
+		obj19.factor(12);
+		Strong_number obj20=new Strong_number();
+		obj20.isStrongNumber(145);
 		
 
 	}

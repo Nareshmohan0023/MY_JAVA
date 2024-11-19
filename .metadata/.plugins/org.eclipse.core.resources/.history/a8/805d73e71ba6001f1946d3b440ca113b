@@ -1,0 +1,12 @@
+package com.Problem_Set_I;
+
+public class Reverse_of_number {
+	public void Reverse(int n) {
+		System.out.println("--------------------------------");
+		int reversed=0;
+		while(n!=0) {
+			reversed=reversed*10+(n%100);
+			n=n/10;
+		}
+	}
+}

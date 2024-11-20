@@ -44,7 +44,14 @@ public class Set_I_Main {
 		obj19.factor(12);
 		Strong_number obj20=new Strong_number();
 		obj20.isStrongNumber(145);
-		
+		Perfect_Number obj21=new Perfect_Number();
+		System.out.println(obj21.Is_perfect_number(6));
+		Perfect_Square obj22=new Perfect_Square();
+		System.out.println(obj22.Is_perfect_square(81));
+		Harshad_Number obj23=new Harshad_Number();
+		System.out.println(obj23.Is_Harsad_Number(13));
+		Abundant_number obj24=new Abundant_number();
+		System.out.println(obj24.Is_Abundant_Number(6));
 
 	}
 

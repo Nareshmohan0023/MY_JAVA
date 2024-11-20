@@ -4,7 +4,7 @@ public class Leap_Year {
 	public String Leapyear(int year) {
 		System.out.println("--------------------------------");
 		System.out.println("the year "+year+ " is a");
-		 if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+		 if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {//((a&&b)||c)
 	        return "leap Year";
 	     } 
 		 else {

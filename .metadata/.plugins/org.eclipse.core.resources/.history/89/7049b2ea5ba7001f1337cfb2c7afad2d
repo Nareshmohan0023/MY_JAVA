@@ -1,0 +1,22 @@
+package com.Problem_Set_II;
+
+public class Set_II_Main {
+
+	public static void main(String[] args) {
+		GCD_HCF obj1=new GCD_HCF();
+		System.out.println(obj1.Find_Gcd(8,6));
+		LCM obj2=new LCM();
+		System.out.println(obj2.Find_LCM(18, 12));
+		Bin_to_Dec obj3=new Bin_to_Dec();
+		System.out.println(obj3.Convert_B_to_D("11011"));
+		Oct_to_Dec obj5=new Oct_to_Dec();
+		System.out.println(obj5.Convert_O_to_D("756"));
+		Hex_to_Dec obj6=new Hex_to_Dec();
+		System.out.println(obj6.Convert_H_to_D("abc"));
+		Dec_to_Bin obj7=new Dec_to_Bin();
+		System.out.println(obj7.Convert_D_to_B(987));
+		
+
+	}
+
+}

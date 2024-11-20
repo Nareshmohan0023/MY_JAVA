@@ -1,0 +1,16 @@
+package com.Problem_Set_II;
+
+public class LCM  {
+	public int GCD(int a,int b) {
+		int temp;
+		while(a%b==0) {
+			temp=b;
+			b=a%b;
+			a=temp;
+		}
+	}
+	public int Find_LCM(int a,int b) {
+		
+	}
+	
+}

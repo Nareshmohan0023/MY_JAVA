@@ -21,7 +21,7 @@ public class Set_I_Main {
 		Prime_or_not obj8=new Prime_or_not();
 		System.out.println(obj8.Is_Prime(7));
 		Sum_of_prime_interval obj9= new Sum_of_prime_interval();
-		System.out.println(obj9.Sum(2, 26));
+		obj9.Sum(2, 26);
 		Sum_of_digits obj10=new Sum_of_digits();
 		System.out.println(obj10.Sum(222));
 		Reverse_of_number obj11=new Reverse_of_number();

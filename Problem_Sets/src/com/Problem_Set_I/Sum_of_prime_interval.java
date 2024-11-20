@@ -14,11 +14,11 @@ public class Sum_of_prime_interval {
         }
         return true;
     }
-    public Integer Sum(int a, int b) {
+    public void Sum(int a, int b) {
 		System.out.println("--------------------------------");
 		System.out.println("the sum of prime between the interval "+a+" and "+b+ " is :");
 
-        int sum = 0;
+       
         int temp;
 
         
@@ -31,11 +31,12 @@ public class Sum_of_prime_interval {
         
         for (int i = a; i <= b; i++) {
             if (Is_Prime(i)) {
-                sum += i;  
+                System.out.print(" "+i);  
             }
         }
+        System.out.println();
 
-        return sum;
+        
     }
 
   

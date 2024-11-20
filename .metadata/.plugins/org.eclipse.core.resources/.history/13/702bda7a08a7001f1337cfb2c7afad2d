@@ -1,0 +1,22 @@
+package com.Problem_Set_I;
+
+public class Sum_of_givenInterval {
+	public Integer Sum_of_interval(int a,int b) {
+		int temp;
+		int sum=0;
+		if(a>b) {
+			temp=b;
+			b=a;
+			a=temp;
+		}
+		
+		
+		for(int i=a;i<=b;i++) {
+		sum+=i;
+		}
+		System.out.println("--------------------------------");
+		System.out.println("the sum of the given interval is :");
+		return sum;
+	}
+
+}

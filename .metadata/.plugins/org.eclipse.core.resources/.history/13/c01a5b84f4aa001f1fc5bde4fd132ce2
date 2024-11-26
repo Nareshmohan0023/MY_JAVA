@@ -1,0 +1,37 @@
+package com.Problem_Set_II;
+
+public class Set_II_Main {
+
+	public static void main(String[] args) {
+		GCD_HCF obj1=new GCD_HCF();
+		System.out.println(obj1.Find_Gcd(8,6));
+		LCM obj2=new LCM();
+		System.out.println(obj2.Find_LCM(18, 12));
+		Bin_to_Dec obj3=new Bin_to_Dec();
+		System.out.println(obj3.Convert_B_to_D("11011"));
+		Oct_to_Dec obj5=new Oct_to_Dec();
+		System.out.println(obj5.Convert_O_to_D("756"));
+		Hex_to_Dec obj6=new Hex_to_Dec();
+		System.out.println(obj6.Convert_H_to_D("abc"));
+		Dec_to_Bin obj7=new Dec_to_Bin();
+		System.out.println(obj7.Convert_D_to_B(875));
+		Dec_to_Oct obj8=new Dec_to_Oct();
+		System.out.println(obj8.Convert_D_to_O(18));
+		Dec_to_Hex obj9=new Dec_to_Hex();
+		System.out.println(obj9.Convert_D_to_H(255));
+		Oct_to_Bin obj10=new Oct_to_Bin();
+		System.out.println(obj10.Convert_O_to_B("65"));
+		Bin_to_Oct obj11=new Bin_to_Oct();
+		System.out.println(obj11.Convert_B_to_O("110011"));
+		Coordinate_Quadrant obj12=new Coordinate_Quadrant();
+		System.out.println(obj12.Find_Quadrant(12, -5));
+		Permutations obj13=new Permutations();
+		System.out.println(obj13.Find_Permutations(10, 5));
+		Handshakes obj14=new Handshakes();
+		System.out.println(obj14.Max_Handshakes(10));
+		
+		
+
+	}
+
+}

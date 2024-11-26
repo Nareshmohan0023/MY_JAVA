@@ -6,7 +6,7 @@ public class Perfect_Number {
 
 		System.out.println("the number is :"+n);
 		if(n<0) {
-			System.out.println("It is not a perfect number");
+			return "It is not a perfect number";
 		}
 		
 		int sum=0;

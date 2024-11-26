@@ -1,0 +1,12 @@
+package com.Problem_Set_III;
+
+public class Find_Small_And_Large {
+	public int 
+	public void Find_S_and_L() {
+		System.out.println("question(2)----------------------------");
+		int[] arr= {5,6,12,3,4,9,10};
+		int smallest;
+		int largest;
+	}
+
+}

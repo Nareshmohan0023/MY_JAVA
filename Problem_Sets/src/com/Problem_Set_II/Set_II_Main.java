@@ -23,7 +23,24 @@ public class Set_II_Main {
 		System.out.println(obj10.Convert_O_to_B("65"));
 		Bin_to_Oct obj11=new Bin_to_Oct();
 		System.out.println(obj11.Convert_B_to_O("110011"));
-		
+		Coordinate_Quadrant obj12=new Coordinate_Quadrant();
+		System.out.println(obj12.Find_Quadrant(12, -5));
+		Permutations obj13=new Permutations();
+		System.out.println(obj13.Find_Permutations(10, 5));
+		Handshakes obj14=new Handshakes();
+		System.out.println(obj14.Max_Handshakes(10));
+		AddFractions obj15=new AddFractions();
+		System.out.println(obj15.Add_Fractions(3, 2, 2, 3));
+		ReplaceZeros obj16=new ReplaceZeros();
+		System.out.println(obj16.Replace_All_Zeros_With_Ones(1125400440));
+		SumOfTwoPrimes obj17=new SumOfTwoPrimes();
+		System.out.println(obj17.Can_Be_Expressed_As_Sum_Of_Two_Primes(34));
+		CircleArea obj18=new CircleArea();
+		System.out.println(obj18.Calculate_Area_Of_Circle(10));
+		PrimeNumbersInRange obj19=new PrimeNumbersInRange();
+		System.out.println(obj19.Find_Primes_Between_1_To_100());
+		CountDigits obj20=new CountDigits();
+		System.out.println(obj20.Count_Number_Of_Digits(56789));
 		
 
 	}

@@ -1,0 +1,9 @@
+package com.Problem_Set_III;
+
+public class Reverse_An_Array {
+	public int reverse() {
+		ic int Sum_All_El() {
+			System.out.println("question(6)----------------------------");
+			System.out.println("The reverse of the given array");
+	}
+}

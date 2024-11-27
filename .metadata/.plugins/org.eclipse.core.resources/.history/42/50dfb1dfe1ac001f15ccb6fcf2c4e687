@@ -15,10 +15,6 @@ public class Set_III {
 		System.out.println(obj5.Sum_All_El());
 		Reverse_An_Array obj6=new Reverse_An_Array();
 		obj6.Reverse();
-		Sort_Array obj7=new Sort_Array();
-		obj7.Sort();
-		Sort_half obj8=new Sort_half();
-		obj8.sort_half();
 	}
 
 }

@@ -1,0 +1,13 @@
+package com.Problem_Set_III;
+
+public class Sum_of_Array {
+	public int Sum_All_El() {
+		System.out.println("question(2)----------------------------");
+		int[] arr= {5,6,12,3,4,9,10};
+		int sum=0;
+		for(int El:arr) {
+			sum+=El;
+		}
+		return sum;
+	}
+}

@@ -18,7 +18,6 @@ public class Set_III {
 		Sort_Array obj7=new Sort_Array();
 		obj7.Sort();
 		Sort_half obj8=new Sort_half();
-		obj8.sort_half();
 	}
 
 }

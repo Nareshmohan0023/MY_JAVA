@@ -1,0 +1,11 @@
+package com.Problem_Set_III;
+
+public class Is_Distinct {
+	public int[] Listing_Distinct_El() {
+		int[] arr= {1,2,3,4,4,8,9,1,2,3};
+		int n=arr.length();
+		int [] result;
+		for(int i=0;i<)
+	}
+
+}

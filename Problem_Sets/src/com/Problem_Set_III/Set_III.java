@@ -19,6 +19,19 @@ public class Set_III {
 		obj7.Sort();
 		Sort_half obj8=new Sort_half();
 		obj8.sort_half();
+		Frequency obj9=new Frequency();
+		obj9.Find_Frequency();
+		Sort_Frequency obj10=new Sort_Frequency();
+		obj10.Sort_by_frequency();
+		Longest_Palindrome_Array obj11=new Longest_Palindrome_Array();
+		System.out.println(obj11.LongestPalindrome());
+		Is_Distinct obj12=new Is_Distinct();
+		System.out.println(obj12.Listing_Distinct_El());
+		Repeating_Elements obj13=new Repeating_Elements();
+		System.out.println(obj13.findRepeatingElements());
+		System.out.println(obj13.Finding_Repeating_Elements());
+		Non_repeating obj_14=new Non_repeating();
+		System.out.println(obj_14.Non_repeating_El());
 	}
 
 }

@@ -1,0 +1,32 @@
+package com.Problem_Set_III;
+
+import java.util.Arrays;
+
+public class Subset {
+	public void Subset_or_not() {
+		System.out.println("question(20)------------------------------");
+		int[] arr1= {1,2,3,6,5,4};
+		int[] arr2= {7,8,9,4,5,6,3,2,1};
+		
+		if(arr1.length>arr2.length) {
+			int count=0;
+			System.out.println("Superset:"+Arrays.toString(arr1));
+			System.out.println("normalset:"+Arrays.toString(arr2));
+			for(int i=0;i<arr2.length;i++) {
+				for(int j=0;i<arr2.length;j++) {
+					if(arr2[i]==arr1[j]) {
+						count++;
+					}
+				}
+			}
+		}
+		else {
+			System.out.println("Superset:"+Arrays.toString(arr2));
+			System.out.println("normalset:"+Arrays.toString(arr1));
+		}
+		
+		
+
+	}
+
+}

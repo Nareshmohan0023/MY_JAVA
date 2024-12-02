@@ -1,0 +1,9 @@
+package com.Problem_Set_III;
+
+public class Scarlar_Product_of_Two_vector {
+	public int Product() {
+		int[] x= {1,8,4};
+		int[] y= {5,4,7};
+		Arrays.sort(x);
+	}
+}

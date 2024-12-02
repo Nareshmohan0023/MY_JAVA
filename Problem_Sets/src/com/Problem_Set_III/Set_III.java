@@ -32,6 +32,21 @@ public class Set_III {
 		System.out.println(obj13.Finding_Repeating_Elements());
 		Non_repeating obj_14=new Non_repeating();
 		System.out.println(obj_14.Non_repeating_El());
+		Scarlar_Product_of_Two_vector obj_15=new Scarlar_Product_of_Two_vector();
+		System.out.println(obj_15.Product());
+		Count_Odd_Even obj_16=new Count_Odd_Even();
+		System.out.println(obj_16.count());
+		Symmetric_Pair obj_18=new Symmetric_Pair();
+		obj_18.find_S_pairs();
+		MaximumProductSubarray obj_19=new MaximumProductSubarray();
+		System.out.println(obj_19.maxProduct());
+		Disjoint_Or_Not obj_20=new Disjoint_Or_Not();
+		System.out.println(obj_20.find());
+		Subset obj_21=new Subset();
+		obj_21.Subset_or_not();
+		MakeArrayEqual obj_22=new MakeArrayEqual();
+		obj_22.checkIfEqual();
+		
 	}
 
 }

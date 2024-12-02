@@ -4,7 +4,9 @@ package com.Problem_Set_III;
 import java.util.Arrays;
 
 public class Sort_half {
+	static int x=5;
     public static void sort_half() {
+    	
     	System.out.println();
     	System.out.println("question(8)----------------------------");
     	int[] array = {7, 2, 9, 4, 3, 8, 1, 6};

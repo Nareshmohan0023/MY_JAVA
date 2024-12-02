@@ -1,0 +1,9 @@
+package com.Problem_Set_III;
+
+public class Disjoint_Or_Not {
+	public String find() {
+		int[] arr1= {1,2,3,4,5};
+		int[] arr2= {6,7,8,9,10};
+	}
+
+}

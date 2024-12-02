@@ -1,0 +1,36 @@
+package com.Problem_Set_III;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Subset {
+    public void Subset_or_not() {
+        System.out.println("question(20)------------------------------");
+        int[] arr1 = {1, 2, 3, 6, 5, 4}; // potential subset
+        int[] arr2 = {7, 8, 9, 4, 5, 6, 3, 2, 1}; // superset
+
+        // Convert arr2 to a Set for efficient lookup
+        Set<Integer> set = new HashSet<>();
+        for (int num : arr2) {
+            set.add(num);
+        }
+
+        // Check if every element of arr1 exists in the set (arr2)
+        boolean isSubset = true;
+        for (int num : arr1) {
+            if (!set.contains(num)) {
+                isSubset = false;
+                break; // No need to check further if one element is missing
+            }
+        }
+
+        // Output the result
+        if (isSubset) {
+            System.out.println("arr1 is a subset of arr2.");
+        } else {
+            System.out.println("arr1 is not a subset of arr2.");
+        }
+    }
+
+    }
+}

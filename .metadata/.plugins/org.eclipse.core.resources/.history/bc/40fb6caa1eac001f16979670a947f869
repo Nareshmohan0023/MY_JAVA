@@ -1,8 +1,0 @@
-package com.Problem_Set_III;
-
-public class Second_Smallest {
-	public Find_Scnd_Small() {
-		int[] arr= {10,9,81,1,4,11,2,3,89};
-	}
-
-}

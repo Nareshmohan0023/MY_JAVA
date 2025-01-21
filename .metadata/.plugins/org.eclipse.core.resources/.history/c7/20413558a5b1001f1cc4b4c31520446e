@@ -4,8 +4,7 @@ import java.util.Arrays;
 
 public class MinimumSumOfAbsoluteDifference {
     public void findMinSum() {
-        System.out.println("question(23)------------------------------");
-
+        // Step 1: Sort the array
     	int[] arr = {4, 1, 8, 7};
         Arrays.sort(arr);
 
@@ -16,13 +15,13 @@ public class MinimumSumOfAbsoluteDifference {
             minSum += Math.abs(arr[i] - arr[i + 1]);
         }
 
-        
-        System.out.println("Minimum Sum of Absolute Differences: " +minSum);
-        
+        return minSum;
     }
 
-  
+    public static void main(String[] args) {
+        MinimumSumOfAbsoluteDifference obj = new MinimumSumOfAbsoluteDifference();
+        
+        
+        System.out.println("Minimum Sum of Absolute Differences: " + obj.findMinSum(arr));
+    }
 }
-
-
-//12345=>

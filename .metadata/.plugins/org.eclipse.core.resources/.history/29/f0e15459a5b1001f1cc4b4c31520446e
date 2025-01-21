@@ -46,12 +46,6 @@ public class Set_III {
 		obj_21.Subset_or_not();
 		MakeArrayEqual obj_22=new MakeArrayEqual();
 		obj_22.checkIfEqual();
-		MinimumSumOfAbsoluteDifference obj_23=new MinimumSumOfAbsoluteDifference();
-		obj_23.findMinSum();
-		CircularRotation obj_24=new CircularRotation();
-		obj_24.Change();
-		BalancedParenthesis obj_25=new BalancedParenthesis();
-		obj_25.find();
 		
 	}
 
